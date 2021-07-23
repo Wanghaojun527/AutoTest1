@@ -8,4 +8,9 @@ public class BasicAnnotation {
     public void test1(){
         System.out.println("²âÊÔÓÃÀı1");
     }
+
+    @Test
+    public void test2(){
+        System.out.println("²âÊÔÓÃÀı2");
+    }
 }
