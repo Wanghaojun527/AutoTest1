@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 //扫描哪个包下的类
-@ComponentScan("com.course.server")
+@ComponentScan("com.course")
 public class Application {
 
     public static void main(String[] args){
