@@ -56,7 +56,7 @@ public class UserManager {
         return false;
 
     }
-    @ApiOperation(value = "获取用户裂变(信息)接口",httpMethod = "POST")
+    @ApiOperation(value = "获取用户列表(信息)接口",httpMethod = "POST")
     @RequestMapping(value = "/getUserInfo",method = RequestMethod.POST)
     public List<User> getUserInfo(HttpServletRequest request,
                                   @RequestBody User user){

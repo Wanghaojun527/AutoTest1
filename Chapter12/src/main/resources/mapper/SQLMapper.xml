@@ -27,4 +27,17 @@
     <select id="updateUserInfoCase" parameterType="Integer" resultType="com.course.model.UpdateUserInfoCase">
         select * from updateUserInfoCase where id = #{id};
     </select>
+
+    <!--添加用户后查询user-->
+    <select id="addUser" parameterType="Integer" resultType="com.course.model.User">
+        select * from user where id = #{id}
+    </select>
+    <!--获取user用户列表-->
+    <select id="getUserList" parameterType="Integer" resultType="com.course.model.User">
+        select * from user where id = #{id};
+    </select>
+    <!--获取user用户信息-->
+    <select id="getUserInfo" parameterType="Integer" resultType="com.course.model.User">
+        select * from user where id = #{id};
+    </select>
 </mapper>
