@@ -30,7 +30,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Chapter10" options="-parameters" />
       <module name="Chapter11" options="-parameters" />
-      <module name="Chapter13" options="-parameters" />
+      <module name="Chapter13" options="-parameters -extdirs C:\Users\Administrator\test1\AutoTest1\Chapter13/lib" />
     </option>
   </component>
 </project>
